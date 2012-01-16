@@ -1,4 +1,4 @@
-class GrailsSnapperGrailsPlugin {
+class SnapperGrailsPlugin {
     // the plugin version
     def version = "0.1"
     // the version or versions of Grails the plugin is designed for
@@ -14,7 +14,7 @@ class GrailsSnapperGrailsPlugin {
     def title = "Snapper - Web Thumbnails for Grails" // Headline display name of the plugin
     def author = "Jonathan Griggs"
     def authorEmail = "jonathan.griggs@gmail.com"
-    def description = '''\\
+    def description = '''
 Given a URL, generates a thumbnail screenshot image.
 '''
 
