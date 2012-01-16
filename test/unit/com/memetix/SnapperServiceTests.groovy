@@ -9,9 +9,9 @@ import org.junit.*
 @TestFor(SnapperService)
 class SnapperServiceTests {
     def myService = new SnapperService() 
-
+    
     void testGenerateThumbnail() {
-        String url = "http://google.com"
+        String url = "http://metafilter.com"
         assertEquals myService.generateThumbnail(url), url
     }
 }
