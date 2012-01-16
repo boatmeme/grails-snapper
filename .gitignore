@@ -4,3 +4,5 @@
 grails-snapper*.zip
 target
 *.log
+.classpath
+.project
